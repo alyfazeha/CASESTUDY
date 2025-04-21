@@ -36,4 +36,21 @@ public class Penilaian {
     void hitungNilaiAkhir() {
 
     }
+
+    void tampilkanDataPenilaian() {
+        System.out.println("=== DATA PENILAIAN MAHASISWA ===");
+        System.out.println("NIM: " + mahasiswa.getNim());
+        System.out.println("Nama: " + mahasiswa.getNama());
+        System.out.println("Mata Kuliah: " + matkul.getNamaMatkul());
+        System.out.println("Tugas: " + tugas);
+        System.out.println("UTS: " + uts);
+        System.out.println("UAS: " + uas);
+        System.out.println("Nilai Akhir: " + nilaiAkhir());
+    }
+    void urutkanMahasiswa() {
+        
+    }
+    void cariMahasiswa(String nim) {
+       
+    }
 }
