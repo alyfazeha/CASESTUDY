@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class Main {
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
+
     while(true){
         System.out.println("=== MENU SISTEM AKADEMIK ===");
         System.out.println("1. Tampilkan daftar Mahasiswa");
@@ -14,7 +15,7 @@ public static void main(String[] args) {
         int input = sc.nextInt();
 
         if(input == 1){
-
+            
         }else if(input == 2){
 
         }else if(input == 3){
