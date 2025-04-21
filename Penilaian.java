@@ -28,4 +28,13 @@ public class Penilaian {
         System.out.println("=== Data Penilaian Mahasiswa ===");
         
     }
+
+    void urutkanMahasiswa() {
+        System.out.println("=== Urutkan Mahasiswa Berdasarkan Nilai Akhir ===");
+        // Implement sorting logic here
+    }
+    void cariMahasiswa(String nim) {
+        System.out.println("=== Cari Mahasiswa Berdasarkan NIM ===");
+        // Implement search logic here
+    }
 }

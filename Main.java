@@ -12,7 +12,7 @@ public static void main(String[] args) {
 
     Penilaian penilaian = new Penilaian();
     Mahasiswa mahasiswa = new Mahasiswa();
-    MataKuliah matkul = new MataKuliah();
+    mataKuliah matkul = new mataKuliah();
 
     while(true){
         System.out.println("=== MENU SISTEM AKADEMIK ===");
@@ -28,7 +28,7 @@ public static void main(String[] args) {
         if(input == 1){
             mahasiswa.tampilMahasiswa();
         }else if(input == 2){
-            matkul.tampilMataKuliah();
+            matkul.tampil();
         }else if(input == 3){
             penilaian.tampilkanDataPenilaian();
         }else if(input == 4){
