@@ -27,7 +27,7 @@ public static void main(String[] args) {
             System.out.println("Terimakasih, sampai jumpa kembali!");
             break;
         }else{
-            System.out.println("Invalid input. Harap pilih salah satu menu yang tersedia");
+            System.out.println("Invalid input. \nHarap pilih salah satu menu yang tersedia");
         }
     }
 }
