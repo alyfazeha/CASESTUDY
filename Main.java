@@ -3,9 +3,15 @@ public class Main {
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
-    Penilaian penilaian = new Penilaian();
+    Mahasiswa [] listMhs = {
+        new Mahasiswa("22001", "Ali Rahman", "Informatika"),
+        new Mahasiswa("22002", "Budi Santoso", "Informatika"),
+        new Mahasiswa("22003", "Citra Dewi", "Sistem Informasi Bisnis"),
+    };
+    
+    // Penilaian penilaian = new Penilaian();
     Mahasiswa mahasiswa = new Mahasiswa();
-    MataKuliah matkul = new MataKuliah();
+    // MataKuliah matkul = new MataKuliah();
 
     while(true){
         System.out.println("=== MENU SISTEM AKADEMIK ===");
@@ -19,17 +25,17 @@ public static void main(String[] args) {
         int input = sc.nextInt();
 
         if(input == 1){
-            mahasiswa.tampilMahasiswa();
+            mahasiswa.tampilMahasiswa(listMhs);
         }else if(input == 2){
-            matkul.tampilMataKuliah();
+            // matkul.tampilMataKuliah();
         }else if(input == 3){
-            penilaian.tampilkanDataPenilaian();
+            // penilaian.tampilkanDataPenilaian();
         }else if(input == 4){
-            penilaian.urutkanMahasiswa();
+            // penilaian.urutkanMahasiswa();
         }else if(input == 5){
             System.out.print("Masukkan NIM yang dicari: ");
             String nim = sc.next();
-            penilaian.cariMahasiswa(nim);
+            // penilaian.cariMahasiswa(nim);
         }else if(input == 0){
             System.out.println("Terimakasih, sampai jumpa kembali!");
             break;
