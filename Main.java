@@ -2,6 +2,8 @@ import java.util.Scanner;
 public class Main {
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
+
+    Penilaian obj = new Penilaian();
     while(true){
         System.out.println("=== MENU SISTEM AKADEMIK ===");
         System.out.println("1. Tampilkan daftar Mahasiswa");
@@ -18,11 +20,13 @@ public static void main(String[] args) {
         }else if(input == 2){
 
         }else if(input == 3){
-
+            obj.tampilkanDataPenilaian();
         }else if(input == 4){
-
+            obj.urutkanMahasiswa();
         }else if(input == 5){
-
+            System.out.print("Masukkan NIM yang dicari: ");
+            String nim = sc.next();
+            obj.cariMahasiswa(nim);
         }else if(input == 0){
             System.out.println("Terimakasih, sampai jumpa kembali!");
             break;
