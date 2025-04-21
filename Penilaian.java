@@ -1,39 +1,26 @@
-// public class Penilaian {
-//     Mahasiswa mahasiswa;
-//     MataKuliah matkul;
-//     String tugas;
-//     double uts;
-//     double uas;
+public class Penilaian {
+    Mahasiswa mahasiswa;
+    MataKuliah matkul;
+    double tugas;
+    double uts;
+    double uas;
+    double nilaiAkhir;
+    Penilaian(Mahasiswa mahasiswa, MataKuliah matkul, double tugas, double uts, double uas) {
+        this.mahasiswa = mahasiswa;
+        this.matkul = matkul;
+        this.tugas = tugas;
+        this.uts = uts;
+        this.uas = uas;
+        hitungNilaiAkhir();
+    }
 
-//     Penilaian() {
+    void hitungNilaiAkhir() {
+        double nilaiAkhir = (0.3 * tugas) + (0.3 * uts) + (0.4 * uas);
+        System.out.println("Nilai Akhir: " + nilaiAkhir);
+    }
 
-//     }
-
-//     Penilaian(Mahasiswa mahasiswa, MataKuliah matkul, String tugas, double uts, double uas) {
-//         this.mahasiswa = mahasiswa;
-//         this.matkul = matkul;
-//         this.tugas = tugas;
-//         this.uts = uts;
-//         this.uas = uas;
-//     }
-
-//     double nilaiTugas() {
-
-//     }
-
-//     double nilaiUts() {
-
-//     }
-
-//     double nilaiUas() {
-
-//     }
-
-//     double nilaiAkhir() {
-
-//     }
-
-//     void hitungNilaiAkhir() {
-
-//     }
-// }
+    void tampilkanDataPenilaian() {
+        System.out.println("=== Data Penilaian Mahasiswa ===");
+        
+    }
+}
