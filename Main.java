@@ -10,7 +10,7 @@ public static void main(String[] args) {
     };
     
     // Penilaian penilaian = new Penilaian();
-    Penilaian[] daftarNilai = new Penilaian[5];
+    // Penilaian[] daftarNilai = new Penilaian[5];
     // daftarNilai[0] = new Penilaian(Mahasiswa[0], daftarMtk[0], 80,   85, 90);
     // daftarNilai[1] = new Penilaian(Mahasiswa[0], daftarMtk[1], 60,   75, 70);
     // daftarNilai[2] = new Penilaian(Mahasiswa[1], daftarMtk[0], 75,   70, 80);
