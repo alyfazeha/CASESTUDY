@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 public class Mahasiswa {
     String NIM;
     String nama;
@@ -9,6 +12,8 @@ public class Mahasiswa {
         this.prodi = prodi;
     }
     void tampilMahasiswa(){
+        Scanner sc = new Scanner(System.in);
+        
         System.out.println("NIM: " + NIM + " | Nama: " + nama + " | Prodi: " + prodi);
     }
 }
