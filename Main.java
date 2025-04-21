@@ -3,6 +3,13 @@ public class Main {
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
+    Penilaian[] daftarNilai = new Penilaian[5];
+    daftarNilai[0] = new Penilaian(daftarMhs[0], daftarMtk[0], 80,   85, 90);
+    daftarNilai[1] = new Penilaian(daftarMhs[0], daftarMtk[1], 60,   75, 70);
+    daftarNilai[2] = new Penilaian(daftarMhs[1], daftarMtk[0], 75,   70, 80);
+    daftarNilai[3] = new Penilaian(daftarMhs[2], daftarMtk[1], 85,   90, 95);
+    daftarNilai[4] = new Penilaian(daftarMhs[2], daftarMtk[2], 80,   90, 65);
+
     Penilaian penilaian = new Penilaian();
     Mahasiswa mahasiswa = new Mahasiswa();
     MataKuliah matkul = new MataKuliah();
