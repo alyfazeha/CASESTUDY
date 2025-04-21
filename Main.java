@@ -19,9 +19,9 @@ public static void main(String[] args) {
         int input = sc.nextInt();
 
         if(input == 1){
-            mahasiswa.tampilkanDaftarMahasiswa();
+            mahasiswa.tampilMahasiswa();
         }else if(input == 2){
-            matkul.tampilkanDaftarMataKuliah();
+            matkul.tampilMataKuliah();
         }else if(input == 3){
             penilaian.tampilkanDataPenilaian();
         }else if(input == 4){
